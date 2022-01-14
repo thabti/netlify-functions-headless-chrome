@@ -17,7 +17,7 @@ exports.handler = async (event, context) => {
 
     // Do stuff with headless chrome
     const page = await browser.newPage()
-    const targetUrl = 'https://davidwells.io'
+    const targetUrl = 'https://google.com'
 
     // Goto page and then do stuff
     await page.goto(targetUrl, {
